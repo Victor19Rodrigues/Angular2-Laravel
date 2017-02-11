@@ -1,0 +1,9 @@
+<div class="container">
+    <h3 class="center">Home Component</h3>
+    <p class="center">Página principal.</p>
+    <div class="row">
+        <card *ngFor="let noticia of noticias" titulo="{{noticia.titulo}}" descricao="{{noticia.descricao}}" link="{{noticia.link}}" cardClass="col s12 m4" imagem="{{noticia.imagem}}">
+        </card>
+    </div>
+
+</div>

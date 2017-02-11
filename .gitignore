@@ -1,0 +1,15 @@
+#webservice 
+
+/webservice/node_modules
+/webservice/public/storage
+/webservice/vendor
+/webservice/.idea
+/webservice/Homestead.json
+/webservice/Homestead.yaml
+/webservice/.env
+
+#modelo2
+
+/modelo2/node_modules
+/modelo2/dist/
+/modelo2/npm-debug.log

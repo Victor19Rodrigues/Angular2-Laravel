@@ -1,0 +1,17 @@
+<div class="container">
+    <h3 class="center">Entrar</h3>
+    <div class="row">
+        <p class="center">
+            {{msg}}
+        </p>
+
+        <div class="input-field col s12 m12">
+            <input type="text" [(ngModel)]="usuario.email" placeholder="E-mail">
+        </div>
+        <div class="input-field col s12 m12">
+            <input type="password" [(ngModel)]="usuario.senha" placeholder="Senha">
+        </div>
+        <button (click)="login()" class="btn blue">Entrar</button>
+
+    </div>
+</div>

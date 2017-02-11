@@ -1,0 +1,21 @@
+<div class="container">
+    <h3 class="center">Cadastro</h3>
+    <div class="row">
+        <p class="center">
+            {{msg}}
+        </p>
+
+        <div class="input-field col s12 m12">
+            <input type="text" [(ngModel)]="cadastro.nome" placeholder="Nome">
+        </div>
+        <div class="input-field col s12 m12">
+            <input type="text" [(ngModel)]="cadastro.email" placeholder="E-mail">
+        </div>
+        <div class="input-field col s12 m12">
+            <input type="password" [(ngModel)]="cadastro.senha" placeholder="Senha">
+        </div>
+        <button (click)="addCadastro()" class="btn blue">Salvar</button>
+
+
+    </div>
+</div>
